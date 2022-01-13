@@ -1,0 +1,223 @@
+/* === banner section styles === */
+
+.banner {
+  max-width: 1600px;
+  height: 600px;
+  background: var(--background-color);
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: linear-gradient(transparent, rgba(47, 48, 58, 0.4)),
+    url(../images/hero.jpg);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36em;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+.button.div {
+  margin-top: 30px;
+}
+.order.button {
+  padding: 10px 32px;
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87em;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+  border-radius: 4px;
+  border-style: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.order.button:hover {
+  background-color: #188ce8;
+}
+/* === особливості === */
+
+.special {
+  padding-top: 94px;
+}
+
+.containers {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.abilities.list {
+  padding-left: 0px;
+}
+.abilities-item {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.abilities {
+  flex-basis: calc((100% - 90px) / 4);
+}
+.abilities.list,
+.abilities-item {
+  text-decoration: none;
+  display: flex;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.abilities-description {
+  text-transform: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.abilities.list {
+  display: flex;
+  justify-content: space-between;
+}
+/* ==== чим ми займаємось ==== */
+h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.16em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.container.examples {
+  flex-direction: column;
+}
+.list.examples,
+.list.workers {
+  padding-left: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.section.comand {
+  background-color: #f5f4fa;
+  margin-right: auto;
+  margin-left: auto;
+}
+.example:not(:last-child),
+.worker:not(:last-child) {
+  margin-right: 30px;
+}
+.worker {
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.member {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18em;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 16px;
+}
+.position {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18em;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.worker-box {
+  padding: 30px 0px;
+}
+
+.filter {
+  display: inline-block;
+  padding: 6px 22px;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.all,
+.website,
+.applications,
+.dezign,
+.marketing {
+  border-style: none;
+  box-shadow: none;
+}
+.filter {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.62em;
+  background-color: #f5f4fa;
+  box-shadow: none;
+  cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.applications,
+.website {
+  text-align: center;
+  min-width: 145px;
+}
+.filter:active,
+.filter:focus,
+.filter:hover {
+  background-color: #2196f3;
+  color: #f5f4fa;
+}
+.projects {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.03em;
+  color: #757575;
+}

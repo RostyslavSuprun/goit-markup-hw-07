@@ -21,8 +21,8 @@ a,
 body,
 main,
 footer {
-  font-family: "Roboto", sans-serif;
-  color: var(--title-text-color);
+  font-family: "Roboto", sans-serif; /* ===miss=== */
+  color: var(--title-text-color); /* ===miss=== */
   text-decoration: none;
   list-style: none;
   border: 0px;

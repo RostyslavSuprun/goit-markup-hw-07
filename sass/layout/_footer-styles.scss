@@ -1,0 +1,70 @@
+/* ====footer==== */
+.footer {
+  background-color: var(--background-color);
+  color: var(--secondary-text-color);
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.footer a.logo {
+  color: var(--secondary-text-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19em;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+}
+address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+}
+.fmail-to,
+.fphone {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+}
+.list-item {
+  margin-top: 8px;
+}
+
+/* flex items */
+.header,
+.nav,
+.nav.list,
+.nav.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mail-to,
+.phone,
+.info.item,
+.info.list,
+.nav.item,
+.nav.menu {
+  display: flex;
+  text-decoration: none;
+}
+.info.list {
+  align-content: center;
+}
+
+.info.item {
+  justify-content: flex-end;
+}
+.footer > .container {
+  flex-direction: column;
+}
