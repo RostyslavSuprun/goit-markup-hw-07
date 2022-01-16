@@ -61,10 +61,6 @@
 .info.item > a.phone {
   margin-left: 50px;
 }
-
-.info.item {
-  justify-content: flex-end;
-}
 .mail-to,
 .phone {
   display: flex;
@@ -105,4 +101,7 @@
 .nav.menu {
   display: flex;
   text-decoration: none;
+}
+.info.item {
+  justify-content: flex-end;
 }
