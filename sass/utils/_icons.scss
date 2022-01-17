@@ -14,7 +14,7 @@ svg {
   fill: #188ce8;
 }
 
-.abilities-ico {
+.feature-list__ico {
   width: 70px;
   height: 70px;
 }
@@ -28,86 +28,6 @@ svg {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-.social-links {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 16px 32px;
-  padding-bottom: 0px;
-}
-.social-link,
-.footer-link {
-  display: inline-block;
-  border-radius: 30px;
-  width: 44px;
-  height: 44px;
-  margin-left: auto;
-  margin-right: auto;
-
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-link .social-ico {
-  box-sizing: border-box;
-  width: 44px;
-  height: 44px;
-  padding: 12px;
-  fill: #afb1b8;
-
-  &:hover svg,
-  &:focus svg {
-    fill: var(--secondary-text-color);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  &:hover,
-  &:focus {
-    background-color: var(--accent-color);
-  }
-}
-.social-link:not(:last-child),
-.footer-link:not(:last-child) {
-  margin-right: 10px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.container.clients {
-  display: flex;
-  flex-direction: column;
-}
-.company-links {
-  display: flex;
-}
-.company-link {
-  display: inline-block;
-  border-radius: 30px;
-  width: 170px;
-  height: 92px;
-  padding: 16px 32px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  &:not(:last-child) {
-    margin-right: 30px;
-    transition-property: fill border-color;
-  }
-  &:hover svg,
-  &:focus svg {
-    fill: var(--accent-color);
-
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  &:hover,
-  &:focus {
-    border-color: var(--accent-color);
-
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
 }
 
 .company-ico {
